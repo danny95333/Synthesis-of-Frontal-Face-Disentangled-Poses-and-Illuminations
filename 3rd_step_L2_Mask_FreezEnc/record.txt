@@ -1,0 +1,6 @@
+niter:50000
+---lr:0.0001
+beta1:0.7
+W:-1-x-x-x-x-x-
+L2 loss
+after load model from: train-3-28000pth

@@ -1,0 +1,4 @@
+single 文件夹里存的是单张图片产生的轮廓mask
+multi_mask是根据mask_1来产生mask_2的文件
+mask几.npy 就是由几张图产生的多图片 多轮廓线的复合mask 矩阵
+multi 模型选用mask_10

@@ -1,0 +1,6 @@
+siamese_train 是原始训练文档，没有load path等等，能产生五官清晰但是边缘blurry的frontal face
+siamese_train_2 (load 0620-10w)，10w iter 训练L1, 目标清晰轮廓
+siamese_train_3 (load 0620-10w), 训练L1, total_loss = L1 ,其他去除，目标清晰轮廓 
+siamese_train_M_1 (load-0620-10w) out:siamese_output_M_1, 加入mask_20 训练L1对边缘的感知， total=L1, 其他去除，清晰轮廓
+siamese_train_M_2 (load-train-3-28000pth) out:siamese_output_M_2, 加入mask_20 L1换成L2,freeaz G enc 轮廓是否会平滑且清晰 
+siamese_train_M_3 (load-train-3-28000pth) out:siamese_output_M_3, 加入mask_20, 还是L1,freeze G net的encoder
