@@ -1,7 +1,7 @@
 # Siamese-Network-for-Frontal-Face-Synthesis-disentangle-pose-and-light-interference-
 
-The input data are from MultiPIE dataset, 9 different identity faces each time with different poses and illumination.
-[![input]](https://github.com/danny95333/Synthesis-of-Frontal-Face-Disentangled-Poses-and-Illuminations/blob/master/input_samples_iteration_200.png)
+All the input data are from MultiPIE dataset, 9 different identity faces each time with different poses and illumination.
+![input](https://github.com/danny95333/Synthesis-of-Frontal-Face-Disentangled-Poses-and-Illuminations/blob/master/input_samples_iteration_200.png)
 
 ## First version: complete basic functions, the frontal face image has clear identity, but blurry boundary and glasses still can't be 100% synthesis.
 >siamese_out_largeP&LclassW: these are the output with relative large class_P and class_L LOSS.
